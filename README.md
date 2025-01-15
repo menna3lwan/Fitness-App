@@ -73,43 +73,4 @@ Create a .env file in the root of the project and configure the following variab
 Use Uvicorn to run the application:
         uvicorn main:app --reload
 
-
-# Usage
-
-Access the API documentation:
-
-Open your browser and visit:
-
-Swagger UI: http://127.0.0.1:8000/docs
-
-ReDoc: http://127.0.0.1:8000/redoc
-
-Test the endpoints:
-
-Use the provided documentation to test various endpoints, such as user registration, login, and fitness activity tracking.
-
-Front-end Integration:
-
-If you have a front-end application, connect it to the API base URL (http://127.0.0.1:8000).
-
-API Endpoints
-
-Here are some key endpoints for the app:
-
-Authentication
-
-POST /auth/register: Register a new user
-
-POST /auth/login: Log in and obtain a token
-
-POST /auth/logout: Log out the current user
-
-Fitness Activities
-
-GET /activities: Get all activities for the logged-in user
-
-POST /activities: Add a new fitness activity
-
-PUT /activities/{id}: Update an existing activity
-
-DELETE /activities/{id}: Delete an activity            
+           
